@@ -129,7 +129,7 @@ def extract(result_title):
 
 
 
-filePath = "C:\\Users\\mis\\Desktop\\crawling\\csv\\cropName.csv"
+filePath = "csv\\cropName.csv"
 diseaseList = csvToDf(filePath)
 extract_searchList(diseaseList)
 
